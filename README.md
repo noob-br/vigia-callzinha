@@ -1,6 +1,3 @@
-# vigia-callzinha
-This project automatically ends calls (focus in WhatsApp) based on scheduled time using computer vision
-
 # Vigia Callzinha 🎯
 
 Seu porteiro virtual que gerencia calls automaticamente usando visão computacional.
@@ -8,34 +5,48 @@ Seu porteiro virtual que gerencia calls automaticamente usando visão computacio
 ## ⚠️ AVISO IMPORTANTE
 **Este código é para fins educacionais.** Use por sua conta e risco.
 
-## 🛠️ Como Funciona
-1. Agenda o tempo da call
-2. 15s antes do fim, ativa modo "sniper" 
-3. Usa computer vision para encontrar botões
-4. Clica automaticamente para encerrar
+## 🎥 Como Funciona - Passo a Passo Visual
 
-## 📋 Pré-requisitos
-- Python 3.8+
-- PyAutoGUI, OpenCV
-- **3 imagens personalizadas** (veja abaixo)
+### 1. Configure o tempo da call
+Digite os minutos e segundos desejados:
 
-## 🖼️ Preparando as Imagens
-Você PRECISA criar 3 screenshots do SEU app:
+![Determine os minutos](minutos.png)
+![Determine os segundos](segundos.png)
 
-### 1. `app.png`
-- Print da tela com call ativa
-- Mostrando onde está a chamada
+### 2. Inicie o vigia
+Aperte Y (ou Enter) para começar:
 
-### 2. `reconhecimento.png` (opcional)
-- Botão que faz aparecer o menu de desligar
-- Muitos apps precisam disso primeiro
+![Aperte Y para iniciar](apertey.png)
+![Vigia iniciado](comecou.png)
 
-### 3. `desligar.png`  
-- Botão de desligar call
-- Deve ser exatamente como aparece no SEU app
+### 3. Relaxe e faça sua call
+O vigia monitora automaticamente. Nos últimos 15 segundos, ele procura seu app:
 
-## 🚀 Como Usar
+![App em chamada](app.png)
+
+### 4. Detecção automática
+Quando localiza o app, prepara o "disparo":
+
+![Alvo localizado](alvolocalizado.png)
+
+### 5. Sequência de desligamento
+- **Passo 1:** Clica no app (se necessário)
+- **Passo 2:** Clica no botão intermediário (se aplicável):
+
+![Botão intermediário](reconhecimento.png)
+
+- **Passo 3:** Clica para desligar:
+
+![Botão desligar](desligar.png)
+
+### 6. Call finalizada
+Confirmação de término:
+
+![Call finalizada](finalizado.png)
+
+## 🧪 Teste Recomendado
+**Faça um teste com 0 minutos e 20 segundos** antes de usar em calls importantes!
+
+## 🛠️ Pré-requisitos Técnicos
 ```bash
 pip install pyautogui opencv-python
-python vigia_callzinha.py
-🔧 Customização
