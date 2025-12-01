@@ -10,7 +10,7 @@ Seu porteiro virtual que gerencia calls automaticamente usando visão computacio
 ### 1. Configure o tempo da call
 Digite os minutos e segundos desejados:
 
-![Determine os minutos](minutos.png)
+![Determine os minutos](images/minutos.png)
 ![Determine os segundos](segundos.png)
 
 ### 2. Inicie o vigia
