@@ -13,14 +13,14 @@ def minha_assinatura():
  |_| \_|\____/ \____/|____/ 
     """)
     print("created by: NOOB-BR")
-    print("se copiar sem pedir, eu te encho a moringa na tapa, filho da puta")
+   # print("se copiar sem pedir, eu te encho a moringa na tapa, filho da puta")
     print("-" * 80)
 # ----------------------- fim da assinatura -------------------
 
 # começo do código
 
 # pedindo a duracao
-duracao_min = float(input("Olá Magnata, de quantos minutos será esse prazer?\n Digite aqui: "))
+duracao_min = float(input("Olá Magnata, de quantos minutos será essa chamada?\n Digite aqui: "))
 duracao_seg = float(input("E quantos segundos? "))
 print("-" * 80)
 
