@@ -48,5 +48,15 @@ Confirmação de término:
 **Faça um teste com 0 minutos e 20 segundos** antes de usar em calls importantes!
 
 ## 🛠️ Pré-requisitos Técnicos
+📥 Instalação Necessária
+1. Tenha Python instalado
+
+Download: python.org
+
+2. Baixe o arquivo do robô
+
+Faça download do robo_press_y.py
+
 ```bash
 pip install pyautogui opencv-python
+
