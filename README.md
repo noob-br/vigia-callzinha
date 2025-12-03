@@ -1,6 +1,6 @@
 # Vigia Callzinha 🎯
 
-Seu porteiro virtual que gerencia calls automaticamente usando visão computacional.
+Seu porteiro do zap que gerencia calls automaticamente usando visão computacional.
 
 ## ⚠️ AVISO IMPORTANTE
 **Este código é para fins educacionais.** Use por sua conta e risco.
@@ -60,3 +60,9 @@ Faça download do robo_press_y.py
 ```bash
 pip install pyautogui opencv-python
 
+-----------
+## 💡 Sugestões e Melhorias
+Quer suporte para outro app (Zoom, Teams, Discord)? Encontrou um bug?
+Não guarde para você!
+
+👉 **[Abra uma Issue aqui](../../issues)** e me conte o que você precisa.
