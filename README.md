@@ -65,4 +65,4 @@ pip install pyautogui opencv-python
 Quer suporte para outro app (Zoom, Teams, Discord)? Encontrou um bug?
 Não guarde para você!
 
-👉 **[Abra uma Issue aqui](../../issues)** e me conte o que você precisa.
+👉 **[Abra uma Issue aqui](https://github.com/noob-br/vigia-callzinha/issues)** e me conte o que você precisa.
